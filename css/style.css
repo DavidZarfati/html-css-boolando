@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-      color: white;
+    color: white;
 }
 
 img {
@@ -16,14 +16,17 @@ img {
     max-width: 1000px;
     margin: 0 auto;
 }
-h2{
+
+h2 {
     font-size: 10px;
     color: black;
 }
-h3{
+
+h3 {
     font-size: 15px;
     color: black;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +54,7 @@ h3{
     padding: 5px;
     z-index: 3;
 }
+
 .sostenibilita {
     background-color: green;
     color: white;
@@ -61,6 +65,7 @@ h3{
     left: 30px;
     z-index: 3;
 }
+
 .sostenibilita-no-sconto {
     background-color: green;
     color: white;
@@ -71,25 +76,29 @@ h3{
     left: 0;
 }
 
-.like{
+.like {
     position: absolute;
-   right: 0;
-   top: 10px;
-   font-size: 1.5rem;
-   width: 30px;
-   border-color: white;
-   color: black;
-   z-index: 3;
+    right: 0;
+    top: 10px;
+    font-size: 1.5rem;
+    width: 30px;
+    border-color: white;
+    color: black;
+    z-index: 3;
 }
-.like:hover{
+
+.like:hover {
     color: red;
 }
-.rosso{
+
+.rosso {
     color: red;
 }
-.cancellato{
+
+.cancellato {
     text-decoration: line-through;
 }
+
 /* .front{
     z-index: 3;
 position: absolute;
@@ -97,37 +106,81 @@ position: absolute;
 .front:hover{
     z-index: 0;
 } */
-header{
-    max-width: 80%;
+header {
+    max-width: 100%;
     margin: 0 auto;
 }
-.back{
+
+.back {
     position: absolute;
-   top: 0;
+    top: 0;
     left: 0;
     opacity: 0;
 }
-.back:hover{
+
+.back:hover {
     opacity: 1;
     transition: opacity 1s ease-in-out;
 }
 
-ul{
+ul {
     display: flex;
 }
-li{
+
+li {
     margin: 10px;
     /* color: white; */
 }
 
-.header{
+.header {
     background-color: orangered;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.logo{
+.logo {
     width: 20%;
     align-self: center;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer h4 {
+    font: 10px;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.footer-list {
+    font-size: 8px;
+}
+
+.footer-wrap {
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    margin-left: 0;
+    margin-right: 0;
 }
