@@ -81,6 +81,9 @@ h3{
    color: black;
    z-index: 3;
 }
+.like:hover{
+    color: red;
+}
 .rosso{
     color: red;
 }
@@ -106,6 +109,7 @@ header{
 }
 .back:hover{
     opacity: 1;
+    transition: opacity 1s ease-in-out;
 }
 
 ul{
