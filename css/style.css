@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+      color: white;
 }
 
 img {
@@ -15,9 +18,11 @@ img {
 }
 h2{
     font-size: 10px;
+    color: black;
 }
 h3{
     font-size: 15px;
+    color: black;
 }
 .row {
     display: flex;
@@ -44,6 +49,7 @@ h3{
     bottom: 30%;
     font-size: 10px;
     padding: 5px;
+    z-index: 3;
 }
 .sostenibilita {
     background-color: green;
@@ -53,6 +59,7 @@ h3{
     font-size: 10px;
     padding: 5px;
     left: 30px;
+    z-index: 3;
 }
 .sostenibilita-no-sconto {
     background-color: green;
@@ -71,10 +78,52 @@ h3{
    font-size: 1.5rem;
    width: 30px;
    border-color: white;
+   color: black;
+   z-index: 3;
 }
 .rosso{
     color: red;
 }
 .cancellato{
     text-decoration: line-through;
+}
+/* .front{
+    z-index: 3;
+position: absolute;
+}
+.front:hover{
+    z-index: 0;
+} */
+header{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.back{
+    position: absolute;
+   top: 0;
+    left: 0;
+    opacity: 0;
+}
+.back:hover{
+    opacity: 1;
+}
+
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+    /* color: white; */
+}
+
+.header{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo{
+    width: 20%;
+    align-self: center;
 }
